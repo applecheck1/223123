@@ -181,8 +181,8 @@ function enviarPedido() {
 
     carro.forEach(item => {
         if (item.cantidad > 0) {
-            mensaje += `🔅 ${item.nombre} (${item.ref}):\n`;
-            mensaje += `   📦 ${item.cantidad} 💰 ${formato(item.precio)}/u: 💲 ${formato(item.cantidad * item.precio)}\n\n`;
+            mensaje += `🔅 *${item.nombre} (${item.ref})*:\n`;
+            mensaje += `   📦${item.cantidad} 💰${formato(item.precio)}/u: ${formato(item.cantidad * item.precio)}\n\n`;
             total += item.cantidad * item.precio;
         }
     });
