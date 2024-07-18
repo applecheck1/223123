@@ -1,6 +1,6 @@
 var titulo=document.getElementById('titulo')
 titulo.innerHTML = `
-  Novu
+  Gereda
 `;
 
 var header=document.getElementById('header')
@@ -8,12 +8,12 @@ header.innerHTML = `
 <div class="container">
 <div class="row align-items-center">
   <div class="col">
-    <h1>Novu</h1>
+    <h1>Gereda</h1>
   </div>
   <div class="col">
     <nav class="text-center">
-      <a class="btn btn-light mb-1" href="index.html"><span style="color: red">Categorías</span></a>
-      <a class="btn btn-light mb-1" href="https://wa.me/573162457988?text=Hola%20">Contáctanos</a>
+      <a class="btn btn-light mb-1" href="indexx.html"><span style="color: red">Categorías</span></a>
+      <a class="btn btn-light mb-1" target="_blank" href="https://wa.me/573155370380?text=Hola%20">Contáctanos</a>
     </nav>
   </div>
 </div>
@@ -22,7 +22,7 @@ header.innerHTML = `
 var footer=document.getElementById('footer')
 footer.innerHTML = `
     <div class="container">
-      <p>@Distribuidora Novu. Todos los derechos reservados</p>
+      <p>@Gereda. Todos los derechos reservados</p>
     </div>
 `;
 
