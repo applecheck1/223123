@@ -1,6 +1,6 @@
 var titulo=document.getElementById('titulo')
 titulo.innerHTML = `
-  Gereda
+  Apple Check
 `;
 
 var header=document.getElementById('header')
@@ -8,7 +8,7 @@ header.innerHTML = `
 <div class="container">
 <div class="row align-items-center">
   <div class="col">
-    <h1>Gereda</h1>
+    <h1>Apple Check</h1>
   </div>
   <div class="col">
     <nav class="text-center">
@@ -22,7 +22,7 @@ header.innerHTML = `
 var footer=document.getElementById('footer')
 footer.innerHTML = `
     <div class="container">
-      <p>@Gereda. Todos los derechos reservados</p>
+      <p>@Apple Check. Todos los derechos reservados</p>
     </div>
 `;
 
