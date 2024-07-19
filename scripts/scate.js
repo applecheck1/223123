@@ -30,7 +30,7 @@ productos[categoria].forEach(producto => {
 
     productoElement.innerHTML = `
         <div class="card">
-            <img loading="lazy" src="${producto.imagen}" class="card-img-top" alt="Imagen de ${producto.nombre}">
+            <img src="${producto.imagen}" class="card-img-top" alt="Imagen de ${producto.nombre}">
             <div class="card-body">
                 <h5 class="card-title font-weight-bold">${producto.nombre}</h5>
                 <div class="d-flex flex-row justify-content-between mb-1">

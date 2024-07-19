@@ -41,10 +41,18 @@
 
 /* Modal Image */
 .modal-image {
-    width: 350px;
+    width: 500px !important;
+    max-width: 100% !important;
     /*object-fit: contain;*/
 }
 
+@media (max-width: 768px) {
+    .modal-image {
+        width: 1000px !important;
+        max-width: 100% !important;
+        /*object-fit: contain;*/
+    }
+}
 /* Navigation Buttons */
 .modal-nav {
     text-align: center;
